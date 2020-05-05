@@ -1,0 +1,95 @@
+body{
+    margin: 0;
+    padding: 0;
+   
+    font-family: 'Rubik Mono One', sans-serif;
+}
+
+html,body{
+  height: 100vh;
+  width: 100%;
+  
+}
+
+.mynav a {
+
+  text-decoration:none;
+    color:#181174 !important;
+    margin-right: 8px;
+  padding:8px 8px 8px 8px;
+    border-bottom: 2px solid transparent;
+}
+
+.mynav a:hover {
+    border-bottom: 2px solid #181174;
+}
+
+
+#container{
+  min-height: 100%;
+  margin:auto;
+  padding:auto;
+  background-image: linear-gradient(to right top, #02e0ff, #29d6ff, #45ccff, #5cc1fb, #70b6f4, #6eb9f5, #6bbcf7, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1);
+background-repeat: no-repeat;
+letter-spacing: 1px;
+background-size: 100% 100%;
+
+
+}
+
+
+#main{
+  
+  font-size:2rem;
+  padding-top: 10%;
+  padding-bottom: 100px;
+}
+
+#intro{
+  text-align: center;
+}
+
+
+
+
+/*///////////////////////////login///////////////*/
+
+.form-popup {
+  display: none;
+background-color: lightblue;
+box-sizing: border-box;
+ width: 70%;
+
+
+  border: 3px solid #f1f1f1;
+
+}
+
+form input{
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.form-popup a{
+cursor: pointer;
+border-bottom: 2px solid blue;
+}
+
+.form-popup label,p{
+
+  font-size: 1.2rem;
+}
+
+#mrrForm{
+  background-color: lightblue;
+}
+
+
+footer{
+  text-align: center;
+  font-family: 'Bitter', serif;
+
+min-height: 50px;
+position: relative;
+background-color: lightgrey;
+padding-top: 1%;
+}
