@@ -9,7 +9,7 @@ session_start();
 <head>
 	<?php include 'dbcon.php' ?>
 	<?php include 'links.php' ?>
-	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="style.css">
 
 </head>
 <body>
